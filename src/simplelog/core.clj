@@ -1,11 +1,10 @@
 (ns simplelog.core
   (:import
-    [java.util.Date]
-    [java.text.DateFormat]))
+    [java.util Date]))
 
 (defn timestamp
   []
-  (.toGMTString (java.util.Date.)))
+  (.toGMTString (Date.)))
 
 (defn thread-id
   []
