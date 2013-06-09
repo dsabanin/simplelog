@@ -1,4 +1,4 @@
-(defproject wildbit/simplelog "1.0.13"
+(defproject simplelog "1.0.13"
   :description "SimpleLog is a logging tool for Beanstalk's services"
   :url "http://beanstalkapp.com"
   :license {:name "Wildbit Proprietary License"
